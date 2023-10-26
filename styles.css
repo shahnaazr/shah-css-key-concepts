@@ -10,3 +10,7 @@ body {
   line-height: 1.35;
   padding: 3rem;
 }
+
+a {
+  font-size: 2rem;
+}
