@@ -1,0 +1,12 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  display: grid;
+  gap: 2rem;
+  place-items: left;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  padding: 3rem;
+}
