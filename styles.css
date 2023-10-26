@@ -4,21 +4,17 @@ html {
 
 body {
   display: grid;
-  gap: 2rem;
+  gap: 1em;
   place-items: left;
   font-size: 1.25rem;
   line-height: 1.35;
   padding: 3rem;
 }
 
-a {
-  font-size: 2rem;
-}
-
 input {
   font-size: 100%;
   color: white;
-  width: 25%;
+  width: 60%;
   padding: 12px 20px;
   border: 2px solid rgb(26, 127, 152);
   border-radius: 4px;
@@ -63,6 +59,102 @@ label {
 }
 
 .image {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  background-color: rgb(26, 127, 152);
+  color: white;
+  outline: none;
+}
+
+a:active {
+  background-color: rgb(55, 26, 152);
+}
+
+@media (min-width: 600px) {
+  a {
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h6 {
+  display: block;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
