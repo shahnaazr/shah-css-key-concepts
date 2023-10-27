@@ -4,53 +4,69 @@ html {
 
 body {
   display: grid;
-  gap: 1em;
   place-items: left;
-  font-size: 1.25rem;
-  line-height: 1.35;
-  padding: 3rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 16px;
+  color: rgb(26, 127, 152);
 }
 
 input {
   font-size: 100%;
-  color: white;
-  width: 60%;
+  color: rgb(26, 127, 152);
+  width: 50%;
   padding: 12px 20px;
   border: 2px solid rgb(26, 127, 152);
   border-radius: 4px;
   margin: 8px 0;
   box-sizing: border-box;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.959);
+  vertical-align: right;
+}
+
+input[type="checkbox"] {
+  width: 32px;
+  margin-left: 1px;
+}
+
+.form-div {
+  width: 100%;
 }
 
 .button {
-  font-size: 100%;
-  color: white;
-  width: 10%;
-  height: 2rem;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.959);
+  width: 150px;
+  max-width: 200px;
+  height: 32px;
   border: none;
   border-radius: 4px;
   background-color: rgb(26, 127, 152);
   text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .form-group {
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 16px auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: right;
-  text-align: right;
+  align-items: left;
+  text-align: left;
 }
 
 label {
   flex: none;
-  width: 100%;
+  width: 250px;
+  display: inline-block;
   padding-right: 20px;
   align-items: left;
   text-align: left;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 0.3rem;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 4px;
 }
 
 .image-contain {
@@ -59,8 +75,8 @@ label {
 }
 
 .image {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 ul {
@@ -72,21 +88,21 @@ li {
 }
 
 a {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(26, 127, 152);
   display: block;
-  padding: 0.5rem 0.75rem;
+  padding: 5px 5px;
   text-decoration: none;
+}
+
+a:active {
+  background-color: rgb(55, 26, 152);
 }
 
 a:hover,
 a:focus {
   background-color: rgb(26, 127, 152);
-  color: white;
+  color: rgba(255, 255, 255, 0.959);
   outline: none;
-}
-
-a:active {
-  background-color: rgb(55, 26, 152);
 }
 
 @media (min-width: 600px) {
@@ -99,11 +115,17 @@ a:active {
   }
 }
 
+address {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
 h1 {
   display: block;
+  color: rgb(26, 127, 152);
   font-size: 2em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
+  margin-top: 16px;
+  margin-bottom: 1px;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
@@ -111,19 +133,24 @@ h1 {
 
 h2 {
   display: block;
+  color: rgb(26, 127, 152);
   font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
+  margin-top: 200px;
+  margin-bottom: 32px;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
 }
+#h2-advise {
+  margin-top: 32px;
+}
 
 h3 {
   display: block;
+  color: rgb(26, 127, 152);
   font-size: 1.17em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 32px;
+  margin-bottom: 32px;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
@@ -131,9 +158,10 @@ h3 {
 
 h4 {
   display: block;
+  color: rgb(26, 127, 152);
   font-size: 1em;
-  margin-top: 1.33em;
-  margin-bottom: 1.33em;
+  margin-top: 32px;
+  margin-bottom: 32px;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
@@ -141,9 +169,10 @@ h4 {
 
 h5 {
   display: block;
+  color: rgb(26, 127, 152);
   font-size: 0.83em;
-  margin-top: 1.67em;
-  margin-bottom: 1.67em;
+  margin-top: 32px;
+  margin-bottom: 32px;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
@@ -151,9 +180,10 @@ h5 {
 
 h6 {
   display: block;
+  color: rgb(26, 127, 152);
   font-size: 0.67em;
-  margin-top: 2.33em;
-  margin-bottom: 2.33em;
+  margin-top: 32px;
+  margin-bottom: 32px;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
